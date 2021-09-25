@@ -33,12 +33,9 @@ const userSchema = new mongoose.Schema(
       default: "",
     },
 
-    instituteName: {
+    institutionName: {
       type: String,
       default: "",
-      min: 3,
-      max: 50,
-      unique: true,
     },
     country: {
       type: String,
